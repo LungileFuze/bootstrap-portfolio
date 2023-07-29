@@ -24,6 +24,11 @@ body {
  * Header
  */
 
+ /* header{
+  background-color: black;
+  opacity: 80%;
+ } */
+
 .banner-wrap {
   background-image: url(./assets/peakpx\ \(1\)other.jpg);
   background-size: cover;
@@ -64,4 +69,10 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.scrolling {
+  background-color: black;
+  opacity: 90%;
+  transition: all 0.5s;
 }
